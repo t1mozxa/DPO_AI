@@ -56,7 +56,7 @@ uv run eda-cli report data/example.csv --out-dir reports
 - `summary.csv` – таблица по колонкам;
 - `missing.csv` – пропуски по колонкам;
 - `correlation.csv` – корреляционная матрица (если есть числовые признаки);
-- `top_categories/*.csv` – top-k категорий по строковым признакам;
+- `top_categories/*.csv` – top-k категорий по строковым признакам;  
 - `hist_*.png` – гистограммы числовых колонок;
 - `missing_matrix.png` – визуализация пропусков;
 - `correlation_heatmap.png` – тепловая карта корреляций.
@@ -81,20 +81,20 @@ uv run eda-cli report data/example.csv --out-dir reports --max-hist-columns 10 -
 
 ## Добавлены новые эвристики качества данных в core.py:
 
-- has_constant_columns - проверка на наличие колонок, где все значения одинаковые
-- has_high_cardinality_categoricals - проверка на категориальные признаки с очень большим числом уникальных значений
-- has_many_zero_values - проверка на числовые колонки с большим количеством нулей
-- has_suspicious_id_duplicates - проверка на дубликаты идентификаторов
+- `--has_constant_columns` - проверка на наличие колонок, где все значения одинаковые
+- `--has_high_cardinality_categoricals` - проверка на категориальные признаки с очень большим числом уникальных значений
+- `--has_many_zero_values` - проверка на числовые колонки с большим количеством нулей
+- `--has_suspicious_id_duplicates` - проверка на дубликаты идентификаторов
 
 ## Добавлены новые параметры CLI-команды report в cli.py:
 
---top-k-categories - сколько top-значений выводить для категориальных признаков
---report-title - заголовок отчёта
---min-missing-share - порог доли пропусков для проблемных колонок
-- json_summary
+- `--top-k-categories`- сколько top-значений выводить для категориальных признаков
+- `--report-title` - заголовок отчёта
+ `--min-missing-share` - порог доли пропусков для проблемных колонок
+- `--json_summary` - сохранить JSON-сводку по датасету
 
 ## Добавлены тесты для новых эвристик в test_core.py:
 
-test_quality_flags_new_features - тест для константных колонок и дубликатов ID
-test_quality_flags_many_zeros - тест для колонок с большим количеством нулей
-test_quality_flags_high_cardinality - тест для категориальных признаков с высокой кардинальностью
+- `--test_quality_flags_new_features` - тест для константных колонок и дубликатов ID
+- `--test_quality_flags_many_zeros` - тест для колонок с большим количеством нулей
+- `--test_quality_flags_high_cardinality` - тест для категориальных признаков с высокой кардинальностью
