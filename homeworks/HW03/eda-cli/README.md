@@ -47,13 +47,8 @@ uv run eda-cli report data/example.csv --out-dir reports
 - `--top-k-categories` – сколько top-значений выводить для категориальных признаков (по умолчанию: 5);
 - `--report-title` – заголовок отчёта (по умолчанию: "EDA-отчёт");
 - `--min-missing-share` – порог доли пропусков, выше которого колонка считается проблемной и попадает в отдельный список в отчёте (по умолчанию: 0.1);
-- `--json-summary` – сохранить JSON-сводку по датасету (по умолчанию: false).
+- `--json-summary` – сохранить JSON-сводку по датасету.
 
-Пример вызова с новыми опциями:
-
-```bash
-uv run eda-cli report data/example.csv --out-dir reports --max-hist-columns 10 --top-k-categories 10 --report-title "Мой EDA-отчёт" --min-missing-share 0.15 --json-summary
-```
 
 В результате в каталоге `reports/` появятся:
 
@@ -65,9 +60,21 @@ uv run eda-cli report data/example.csv --out-dir reports --max-hist-columns 10 -
 - `hist_*.png` – гистограммы числовых колонок;
 - `missing_matrix.png` – визуализация пропусков;
 - `correlation_heatmap.png` – тепловая карта корреляций.
+- `summary.json` – JSON-сводка по датасету (если указана опция `--json-summary`).
 
 ## Тесты
 
 ```bash
 uv run pytest -q
+```
+
+## Дополнительно
+
+Проект был протестирован не только на встроенном `data/example.csv`, но и на собственных данных:
+- `spotify_tracks.csv` и `second.csv` (локальный файл, не включён в репозиторий).
+
+Пример вызова с новыми опциями (включая `--json-summary`):
+
+```bash
+uv run eda-cli report data/example.csv --out-dir reports --max-hist-columns 10 --top-k-categories 10 --report-title "Мой EDA-отчёт" --min-missing-share 0.15 --json-summary
 ```
