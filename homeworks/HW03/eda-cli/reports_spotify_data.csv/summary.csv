@@ -1,0 +1,16 @@
+name,dtype,non_null,missing,missing_share,unique,is_numeric,zeros,min,max,mean,std
+track_id,object,8582,0,0.0,8582,False,0,,,,
+track_name,object,8582,0,0.0,7462,False,0,,,,
+track_number,int64,8582,0,0.0,54,True,0,1.0,102.0,5.772547191796784,6.05279199122073
+track_popularity,int64,8582,0,0.0,98,True,503,0.0,99.0,52.35621067350268,23.81607569195167
+explicit,bool,8582,0,0.0,2,True,6434,0.0,1.0,0.25029130738755534,0.4332059976478098
+artist_name,object,8579,3,0.0003495688650664181,2547,False,0,,,,
+artist_popularity,int64,8582,0,0.0,96,True,25,0.0,100.0,69.73001631321371,19.645979449797398
+artist_followers,int64,8582,0,0.0,3740,True,8,0.0,145542136.0,24034719.33430436,38031804.95650598
+artist_genres,object,5221,3361,0.3916336518294104,661,False,0,,,,
+album_id,object,8582,0,0.0,5205,False,0,,,,
+album_name,object,8582,0,0.0,4870,False,0,,,,
+album_release_date,object,8582,0,0.0,2384,False,0,,,,
+album_total_tracks,int64,8582,0,0.0,82,True,0,1.0,181.0,13.789443020274994,11.887130509754243
+album_type,object,8582,0,0.0,3,False,0,,,,
+track_duration_min,float64,8582,0,0.0,647,True,0,0.07,13.51,3.492804707527383,1.0579697367855392
