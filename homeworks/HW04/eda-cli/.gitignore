@@ -1,0 +1,27 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+env/
+venv/
+venv/
+
+# Исходные данные: example.csv — можно, всё остальное — нет
+data/*.csv
+!data/example.csv
+
+# Отчёты и временные файлы
+reports/
+reports_*/
+
+# Python-артефакты
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
