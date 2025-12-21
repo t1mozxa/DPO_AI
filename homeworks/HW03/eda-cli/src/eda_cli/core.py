@@ -17,7 +17,7 @@ class ColumnSummary:
     unique: int
     example_values: List[Any]
     is_numeric: bool
-    zeros: int = 0  # Количество нулей в колонке
+    с: int = 0  # Количество нулей в колонке
     min: Optional[float] = None
     max: Optional[float] = None
     mean: Optional[float] = None
