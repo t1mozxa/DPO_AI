@@ -1,0 +1,17 @@
+{
+    "Dataset 1": {
+        "best_model": "KMeans",
+        "selection_criterion": "silhouette_score",
+        "selected_value": 0.5216395622404242
+    },
+    "Dataset 2": {
+        "best_model": "DBSCAN",
+        "selection_criterion": "silhouette_score",
+        "selected_value": 0.46150735229210377
+    },
+    "Dataset 3": {
+        "best_model": "DBSCAN",
+        "selection_criterion": "silhouette_score",
+        "selected_value": 0.3180502320726709
+    }
+}
