@@ -1,0 +1,30 @@
+{
+  "model_architecture": {
+    "input_dim": 784,
+    "hidden_dims": [
+      256,
+      128
+    ],
+    "num_classes": 47,
+    "activation": "relu",
+    "dropout_p": 0.0,
+    "use_batchnorm": true
+  },
+  "training_config": {
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "criterion": "CrossEntropyLoss",
+    "batch_size": 64,
+    "early_stopping": {
+      "patience": 4,
+      "min_delta": 0.0005
+    }
+  },
+  "dataset": "EMNIST_balanced",
+  "seed": 42,
+  "epochs_trained": 19,
+  "final_val_accuracy": 0.8482521186440678,
+  "final_val_loss": 0.49753729325566587,
+  "best_val_accuracy": 0.8568149717514124,
+  "best_val_loss": 0.4407789854511703
+}
