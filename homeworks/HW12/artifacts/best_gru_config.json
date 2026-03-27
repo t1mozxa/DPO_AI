@@ -1,0 +1,12 @@
+{
+  "input_size": 1,
+  "hidden_size": 50,
+  "num_layers": 2,
+  "window_size": 24,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "num_epochs": 20,
+  "seed": 42,
+  "scaler_used": "StandardScaler",
+  "optimizer": "Adam"
+}
