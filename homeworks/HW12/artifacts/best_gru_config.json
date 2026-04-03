@@ -8,5 +8,9 @@
   "num_epochs": 20,
   "seed": 42,
   "scaler_used": "StandardScaler",
-  "optimizer": "Adam"
+  "optimizer": "Adam",
+  "task": "forecasting",
+  "dataset": "S12-hw-dataset.csv",
+  "split_summary": "70/15/15",
+  "horizon": 1
 }
