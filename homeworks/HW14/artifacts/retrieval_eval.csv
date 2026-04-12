@@ -1,0 +1,11 @@
+query,expected_source,retrieved_sources,hit_at_k,rank_of_first_relevant
+How does COVID-19 spread from person to person?,covid_faq_000,covid_faq_000;covid_faq_006;covid_faq_000;covid_faq_003;covid_faq_021,1,1
+What are the most common symptoms of coronavirus?,covid_faq_001,covid_faq_001;covid_faq_008;covid_faq_001;covid_faq_009;covid_faq_009,1,1
+Can I catch COVID from the air?,covid_faq_003,covid_faq_000;covid_faq_006;covid_faq_003;covid_faq_000;covid_faq_000,1,3
+What measures can I take to protect myself from the virus?,covid_faq_004,covid_faq_004;covid_faq_004;covid_faq_015;covid_faq_002;covid_faq_026,1,1
+Should I wear a mask if I am healthy?,covid_faq_005,covid_faq_005;covid_faq_016;covid_faq_005;covid_faq_015;covid_faq_017,1,1
+How long is the incubation period for COVID?,covid_faq_018,covid_faq_018;covid_faq_006;covid_faq_021;covid_faq_007;covid_faq_014,1,1
+Are antibiotics effective against coronavirus?,covid_faq_012,covid_faq_012;covid_faq_022;covid_faq_014;covid_faq_014;covid_faq_013,1,1
+Is there a vaccine or treatment for COVID-19?,covid_faq_014,covid_faq_014;covid_faq_023;covid_faq_013;covid_faq_006;covid_faq_015,1,1
+How long does the virus survive on surfaces?,covid_faq_020,covid_faq_020;covid_faq_020;covid_faq_026;covid_faq_018;covid_faq_000,1,1
+Who is most at risk of developing severe illness?,covid_faq_011,covid_faq_011;covid_faq_014;covid_faq_001;covid_faq_004;covid_faq_001,1,1

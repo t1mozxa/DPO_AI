@@ -1,0 +1,5 @@
+query,before_retrieved_sources,after_retrieved_sources,changed
+Can children catch coronavirus?,covid_faq_026;covid_faq_023;covid_faq_007;covid_faq_000;covid_faq_006,covid_new_002;covid_faq_026;covid_faq_023;covid_faq_007;covid_new_001,True
+Is it possible to get COVID again after recovery?,covid_faq_023;covid_faq_023;covid_faq_021;covid_faq_014;covid_faq_013,covid_new_002;covid_faq_023;covid_new_002;covid_faq_023;covid_faq_021,True
+Are packages from infected areas safe?,covid_faq_024;covid_faq_004;covid_faq_004;covid_faq_019;covid_faq_010,covid_new_003;covid_faq_024;covid_faq_004;covid_faq_004;covid_faq_019,True
+How does COVID-19 spread?,covid_faq_000;covid_faq_006;covid_faq_003;covid_faq_025;covid_faq_000,covid_faq_000;covid_faq_006;covid_faq_003;covid_faq_025;covid_faq_000,False

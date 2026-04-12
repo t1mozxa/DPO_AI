@@ -1,0 +1,16 @@
+question,answer,retrieved_sources
+Can children catch coronavirus?,"Question: Can I get reinfected with COVID-19 after recovering? Answer: We know that for similar coronaviruses, infected people are unlikely to be re-infected shortly after they recover. However, because the immune response to COVID-19 is not yet understood, it is not yet known whether similar immune protection will be observed Question: 27.
+
+[Sources: covid_new_002, covid_faq_026, covid_faq_023]",covid_new_002;covid_faq_026;covid_faq_023
+Is it possible to get COVID again after recovery?,"Question: Can I get reinfected with COVID-19 after recovering? Answer: We know that for similar coronaviruses, infected people are unlikely to be re-infected shortly after they recover. However, because the immune response to COVID-19 is not yet understood, it is not yet known whether similar immune protection will be observed Question: 24.
+
+[Sources: covid_new_002, covid_faq_023, covid_new_002]",covid_new_002;covid_faq_023;covid_new_002
+Are packages from infected areas safe?,"Question: Is it safe to receive packages from areas with COVID-19? Answer: Yes. The likelihood of an infected person contaminating commercial goods is low and the risk of catching the virus that causes COVID-19 from a package that has been moved, travelled, and exposed to different conditions and temperature is Question: 25.
+
+[Sources: covid_new_003, covid_faq_024, covid_faq_004]",covid_new_003;covid_faq_024;covid_faq_004
+How does COVID-19 spread?,"Question: 1. How does COVID-19 spread? Answer: People can catch COVID-19 from others who have the virus. The disease can spread from person to person through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales.
+
+[Sources: covid_faq_000, covid_faq_006, covid_faq_003]",covid_faq_000;covid_faq_006;covid_faq_003
+Is there a vaccine for COVID?,"Question: 15. Is there a vaccine, drug or treatment for COVID-19? Answer: Not yet. To date, there is no vaccine and no specific antiviral medicine to prevent or treat COVID-2019.
+
+[Sources: covid_faq_014, covid_new_002, covid_faq_023]",covid_faq_014;covid_new_002;covid_faq_023
