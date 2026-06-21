@@ -22,3 +22,5 @@
      - небольшой пример (sample) для демонстрации.
 
 Рекомендуется добавить в этот файл (или отдельный `data_description.md`) описание того, какие файлы тут используются и откуда они взялись.
+
+Ссылка на оригинал датасета: https://www.kaggle.com/datasets/sharmajicoder/used-car-price-prediction-dataset

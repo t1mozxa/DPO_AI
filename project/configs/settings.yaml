@@ -1,0 +1,31 @@
+project:
+  name: "Used Car Price Prediction API"
+  version: "1.0.0"
+
+data:
+  path: "data/used_car_price_prediction_1M.csv"
+  sample_path: "data/sample_data.csv"
+  test_size: 0.2
+  random_state: 42
+
+model:
+  algorithm: "GradientBoostingRegressor"
+  n_estimators: 300
+  learning_rate: 0.1
+  max_depth: 4
+  min_samples_split: 5
+  min_samples_leaf: 10
+  subsample: 0.8
+  loss: "huber"
+  random_state: 42
+
+features:
+  categorical: ["Brand", "Model", "Fuel_Type", "Transmission", "Owner_Type", "Color", "City"]
+  numerical: ["Year", "Mileage_kmpl", "Engine_CC", "Horsepower", "Kms_Driven", 
+              "Insurance_Valid", "Service_History", "Accidents", "Tax_Paid", 
+              "Number_of_Doors", "Seats", "Registration_Age"]
+  target: "Price"
+
+api:
+  host: "0.0.0.0"
+  port: 8000
