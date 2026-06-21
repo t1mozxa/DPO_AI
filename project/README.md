@@ -98,7 +98,7 @@ python -m src.service
   'http://127.0.0.1:8000/predict' \
   -H 'accept: application/json' \
   -H 'Content-Type: application/json' \
-  -d '{
+  -d {
   "Brand": "string",
   "Model": "string",
   "Year": 1990,
@@ -120,7 +120,7 @@ python -m src.service
   "Insurance_Valid": 1,
   "Service_History": 1,
   "Accidents": 0
-}'
+}
   ```
 
 ---
