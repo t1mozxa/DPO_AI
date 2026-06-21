@@ -120,7 +120,7 @@ python -m src.service
   "Insurance_Valid": 1,
   "Service_History": 1,
   "Accidents": 0
-}
+  }
   ```
 
 ---
